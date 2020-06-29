@@ -1,12 +1,14 @@
 
 
-
+*{
+  box-sizing: border-box;
+}
 html{
  scroll-behavior: smooth;
 }
 body{
  scroll-behavior: smooth;
- width: 100%;
+ width:99%;
 }
 ul{
  list-style: none;
@@ -528,7 +530,7 @@ color: #F8F9FA;
  }
  .show-case h1{
   font-size: 20px;
-  line-height: 28px;
+  line-height: 33px;
   margin-top: 30px;
  }
  .show-case h3{
@@ -540,5 +542,9 @@ color: #F8F9FA;
  }
  .layer .col-md-6{
   margin-bottom: 29px;
+ }
+ h1{
+  font-size: 20px;
+  line-height: 33px;
  }
 }

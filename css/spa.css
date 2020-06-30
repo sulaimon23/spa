@@ -25,9 +25,12 @@ ul{
  background:#E5B710 ;
  border: none;
  box-shadow: 1px 4px 6px gray;
+ transition: 0.5s;
 }
 .but:hover{
  background: #745e0e;
+ transform: scale(1.1);
+ border: none;
 }
 i{
  color: #E5B710;
@@ -38,6 +41,11 @@ i{
  padding: 5px;
  box-sizing: border-box;
  cursor: pointer;
+ transition: ease-in-out 0.4s;
+}
+i:hover{
+  transform: scale(1.2);
+  color: red;
 }
 .head{
  background: rgba(229, 183, 16, 0.26) !important;
@@ -95,6 +103,11 @@ font-size: 18px;
 line-height: 25px;
 color: #F8F9FA;
 text-decoration: none;
+transition: 0.6s;
+}
+.show-link li a:hover{
+  color: red;
+  transform: scale(1.1);
 }
 .show-case h1{
  color: white;
@@ -253,6 +266,10 @@ color: black;
  width: 100%;
  margin-bottom: 40px;
  box-shadow: 1px 4px 6px gray;
+ transition: 0.6s;
+}
+.inf img:hover{
+  transform: scale(1.2);
 }
 .inf{
  text-align: center;
@@ -295,6 +312,10 @@ text-decoration: none;
 .tag img{
  float: left;
  box-shadow: 1px 4px 6px gray;
+ transition: 0.6;
+}
+.tag img:hover{
+  transform: scale(1.2);
 }
 .tag .inner{
  margin: 20px auto;
@@ -502,8 +523,20 @@ color: #F8F9FA;
 .carousel{
  display: none;
 }
+h1,h2,h3{
+  line-height: normal;
+}
 
 @media(max-width: 900px){
+  h1,h2,h3{
+    line-height: normal;
+  }
+  .container{
+    width: 95%;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin: auto;
+  }
  .show-link{
   display: none;
  }
@@ -518,6 +551,20 @@ color: #F8F9FA;
   text-align: center;
   height: 100%;
   padding: 5px;
+ }
+ .wrap{
+   width: 95%;
+   margin-top: 10px;
+   box-sizing: border-box;
+ }
+ .wrap h1,p{
+   line-height: normal;
+ }
+ .wrap img{
+   width: 50px;
+   height: 50px;
+   padding: 8px;
+   box-sizing: content-box;
  }
  .prod ul{
   display: none;
@@ -538,10 +585,26 @@ color: #F8F9FA;
   line-height: 17px;
  }
  .show-case .col-md-6{
-  width: 50%;
+  width: 30%;
+  margin-right: 5px;
+ }
+ .show-case .inn{
+   width: 65%;
  }
  .layer .col-md-6{
   margin-bottom: 29px;
+ }
+ .text h1{
+  font-size: 25px;
+}
+ .text h3{
+  font-size: 18px;
+  margin-top: 3px;
+}
+ .text h2{
+   font-size: 20px;
+   margin-bottom: 3px;
+   line-height: normal;
  }
  h1{
   font-size: 20px;

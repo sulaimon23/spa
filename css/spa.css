@@ -96,11 +96,10 @@ form i{
  margin: 0 35px !important;
 }
 .show-link li a{
- font-family: Open Sans;
+ font-family: Open, Sans;
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
-line-height: 25px;
 color: #F8F9FA;
 text-decoration: none;
 transition: 0.6s;
@@ -111,19 +110,17 @@ transition: 0.6s;
 }
 .show-case h1{
  color: white;
- font-family: Open Sans;
+ font-family: Open, Sans;
 font-style: normal;
 font-weight: normal;
-line-height: 62px;
 letter-spacing: 0.015em;
 margin-bottom: 20px;
 }
 .show-case h3{
- font-family: Open Sans;
+ font-family: Open, Sans;
 font-style: normal;
 font-weight: normal;
 font-size: 30px;
-line-height: 41px;
 letter-spacing: 0.05em;
 color: white;
 }
@@ -158,26 +155,23 @@ color: white;
 font-style: normal;
 font-weight: normal;
 font-size: 48px;
-line-height: 70px;
 text-align: center;
 letter-spacing: 0.135em;
 margin-bottom: 0px;
 }
 .text h2{
- font-family: open sans;
+ font-family: open, sans;
 font-style: normal;
 font-weight: normal;
 font-size:50px;
-line-height: 74px;
 text-align: center;
 margin-top: 0px;
 }
 .text h3{
- font-family: Open Sans;
+ font-family: Open, Sans;
 font-style: normal;
 font-weight: normal;
 font-size: 24px;
-line-height: 33px;
 letter-spacing: 0.075em;
 }
 .layer{
@@ -205,21 +199,19 @@ letter-spacing: 0.075em;
  margin-right: 20px;
 }
 .set h1{
- font-family: Open Sans;
+ font-family: Open, Sans;
 font-style: normal;
 font-weight: 600;
 font-size: 25px;
-line-height: 45px;
 letter-spacing: 0.1em;
 color: #000000;
 margin-top: 0;
 }
 .set p{
- font-family: Open Sans;
+ font-family: Open, Sans;
 font-style: normal;
 font-weight: normal;
 font-size: 15px;
-line-height:25px;
 color: black;
 }
 .wrap{
@@ -254,11 +246,10 @@ color: black;
  margin:50px 0px;
 }
 .service h1{
- font-family: Open Sans;
+ font-family: Open, Sans;
 font-style: normal;
 font-weight: normal;
 font-size: 48px;
-line-height: 65px;
 letter-spacing: 0.135em;
 color: black;
 }
@@ -275,13 +266,13 @@ color: black;
  text-align: center;
  color: black;
  margin-bottom: 60px;
+ display: none;
 }
 .inf h1{
- font-family: Open Sans;
+ font-family: Open, Sans;
 font-style: normal;
 font-weight: 600;
 font-size: 30px;
-line-height: 49px;
 text-align: center;
 }
 .prod{
@@ -297,11 +288,10 @@ text-align: center;
  margin: 20px 30px;
 }
 .prod ul li a{
- font-family: Open Sans;
+ font-family: Open, Sans;
 font-style: normal;
 font-weight: normal;
 font-size: 20px;
-line-height: 41px;
 letter-spacing: 0.125em;
 color: #000000;
 text-decoration: none;
@@ -330,7 +320,7 @@ text-decoration: none;
  box-shadow: 1px 4px 6px gray;
 }
 .tag-text h1{
- font-family: Open Sans;
+ font-family: Open, Sans;
  font-style: normal;
  font-weight: normal;
  font-size:25px;
@@ -356,17 +346,15 @@ text-decoration: none;
 font-style: normal;
 font-weight: bold;
 font-size: 40px;
-line-height:35px
 }
 .treat-wrapper .but{
  box-shadow: none;
 }
 .blog{
- font-family: Open Sans;
+ font-family: Open, Sans;
 font-style: normal;
 font-weight: normal;
 font-size: 48px;
-line-height: 65px;
 letter-spacing: 0.13em;
 color: #000000;
 text-align: center;
@@ -407,7 +395,7 @@ footer{
  margin-top: 30px;
 }
 .start-wrapper{
- width: 90%;
+ width: 50%;
  display: flex;
  margin: auto;
  align-content: center;
@@ -423,26 +411,25 @@ footer{
 .start{
  margin-right: 50px;
  margin-bottom: 0;
+ width: 50%;
 }
 .start h1{
- font-family: Open Sans;
+ font-family: Open, Sans;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
-line-height: 19px;
 color: #000000;
-margin-left: 10pxpx;
-display: table-cell;
+margin-left: 10px;
+margin-bottom: 0;
 }
 .start p{
-font-family: Open Sans;
+font-family: Open, Sans;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
-line-height: 19px;
 color: #ADB5BD;
-display: inline-block;
-/* transform: translate(40px, -15px); */
+margin-top: 0;
+margin-bottom:25px;
 }
 .foot-wrap{
  width: 100%;
@@ -458,11 +445,10 @@ display: inline-block;
 }
 footer a{
  text-decoration: none;
- font-family: Open Sans;
+ font-family: Open, Sans;
 font-style: normal;
 font-weight: bold;
 font-size: 12px;
-line-height: 19px;
 color: #F8F9FA;
 }
 footer .lat{
@@ -501,7 +487,6 @@ color: white;
 }
 .left{
  font-size: 14px;
-line-height: 19px;
 color: #F8F9FA;
 }
 .cont ul{
@@ -523,14 +508,10 @@ color: #F8F9FA;
 .carousel{
  display: none;
 }
-h1,h2,h3{
-  line-height: normal;
-}
+
 
 @media(max-width: 900px){
-  h1,h2,h3{
-    line-height: normal;
-  }
+
   .container{
     width: 95%;
     box-sizing: border-box;
@@ -557,9 +538,7 @@ h1,h2,h3{
    margin-top: 10px;
    box-sizing: border-box;
  }
- .wrap h1,p{
-   line-height: normal;
- }
+ 
  .wrap img{
    width: 50px;
    height: 50px;
@@ -577,19 +556,21 @@ h1,h2,h3{
  }
  .show-case h1{
   font-size: 20px;
-  line-height: 33px;
   margin-top: 30px;
  }
  .show-case h3{
   font-size: 16px;
-  line-height: 17px;
  }
  .show-case .col-md-6{
   width: 30%;
   margin-right: 5px;
  }
+ .show-case .inl{
+   display: none;
+ }
  .show-case .inn{
    width: 65%;
+   display: none;
  }
  .layer .col-md-6{
   margin-bottom: 29px;
@@ -604,10 +585,8 @@ h1,h2,h3{
  .text h2{
    font-size: 20px;
    margin-bottom: 3px;
-   line-height: normal;
  }
  h1{
   font-size: 20px;
-  line-height: 33px;
  }
 }

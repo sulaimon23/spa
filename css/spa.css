@@ -612,6 +612,15 @@ color: #F8F9FA;
  .show-case .inn h1{
    font-size: 25px;
  }
+ .in h1{
+   font-size: 18px;
+ }
+ .set{
+   margin: 15px;
+ }
+ .in p{
+  font-size: 15px;
+}
  .show-case .inn h3{
   font-size: 20px;
 }

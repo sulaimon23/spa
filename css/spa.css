@@ -605,9 +605,16 @@ color: #F8F9FA;
    display: none;
  }
  .show-case .inn{
-   width: 65%;
+   width: 100%;
    display: none;
+   text-align: center;
  }
+ .show-case .inn h1{
+   font-size: 25px;
+ }
+ .show-case .inn h3{
+  font-size: 20px;
+}
  .layer .col-md-6{
   margin-bottom: 29px;
  }

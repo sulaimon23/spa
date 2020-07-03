@@ -557,6 +557,7 @@ color: #F8F9FA;
   text-align: left;
   border-bottom: 1px gray solid;
   display: none;
+  border-radius: 0px !important;
  }
  .card h1,h2{
   color: #E5B710;

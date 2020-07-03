@@ -608,6 +608,9 @@ color: #F8F9FA;
     overflow: hidden;
     margin: auto;
   }
+  .cap{
+    margin-top:10px
+  }
   .start-wrapper{
     width: 100%;
     justify-content: space-between;
